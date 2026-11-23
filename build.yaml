@@ -1,3 +1,7 @@
 include:
   - board: nice_nano//zmk
     shield: macropad4
+  - board: nice_nano//zmk
+    shield: macropad4
+    cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y
+    artifact-name: macropad4-recovery
